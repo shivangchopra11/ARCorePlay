@@ -1,12 +1,4 @@
-﻿/*================================================
-==Adapted by  : Ritesh Kanjee(Arduino Startups)	==
-==Date        : 12 March 2018      				==
-==Revision    : 1.2 				 		  	==	
-==Description : The gameobject to place when	==
-==			    tapping the screen.				==
-==			   							  		==	
-==================================================*/
-using UnityEngine;
+﻿using UnityEngine;
 using GoogleARCore;
 using GoogleARCore.Examples.HelloAR;
 

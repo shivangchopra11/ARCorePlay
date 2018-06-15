@@ -10,12 +10,12 @@ public class PlaneVisualizationManager : MonoBehaviour {
     /// </summary>
     public GameObject TrackedPlanePrefab;
 
-    private List<TrackedPlane> _newPlanes = new List<TrackedPlane>();
+    private List<DetectedPlane> _newPlanes = new List<DetectedPlane>();
     
 	// Update is called once per frame
 	void Update ()
 	{
-		Session.GetTrackables<TrackedPlane>(_newPlanes, TrackableQueryFilter.New);
+		Session.GetTrackables<DetectedPlane>(_newPlanes, TrackableQueryFilter.New);
 
 	    // Iterate over planes found in this frame and instantiate corresponding GameObjects to visualize them.
 	    foreach (var curPlane in _newPlanes)

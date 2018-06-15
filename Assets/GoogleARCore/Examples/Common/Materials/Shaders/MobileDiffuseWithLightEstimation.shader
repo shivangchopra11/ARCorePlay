@@ -23,7 +23,7 @@
 
         void lightEstimation(Input IN, SurfaceOutput o, inout fixed4 color)
         {
-            color.rgb *= _GlobalColorCorrection;
+            color.rgb *= _GlobalColorCorrection*0.1;
         }
 
         void surf (Input IN, inout SurfaceOutput o)
