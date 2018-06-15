@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: Assets/Scenes/MationTracking.unity
     guid: 8cfab3f7b32c64d81afde2fdf1f97d49
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PointAndPlaneDetection.unity
     guid: 97ec2c4d52d7b4cabaccc394d45ebb72
+  - enabled: 1
+    path: Assets/Scenes/HitTesting.unity
+    guid: 98de3d8cb235c4ea28765cff7329097f
   m_configObjects: {}
